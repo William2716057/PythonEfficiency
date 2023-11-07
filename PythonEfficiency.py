@@ -2,19 +2,19 @@ import time
 
 def brewCoffee():
     print("Start brewCoffee()")
-    #will take three seconds to complete
+    # Will take three seconds to complete
     time.sleep(3)
     print("End brewCoffee()")
     return "Brewing Complete"
 
 def makeToast():
-    print("Start toast()")
-    #two seconds to complete
+    print("Start makeToast()")
+    # Two seconds to complete
     time.sleep(2)
-    print("End toasting()")
-    return "Toasting complete()"
+    print("End makeToast()")
+    return "Toasting complete"
 
-#record start times
+# Record start times
 def main():
     startTime = time.time()
 
@@ -24,7 +24,10 @@ def main():
     endTime = time.time()
 
     elapsedTime = endTime - startTime
-
+    # Display results
     print(f"Brew result: {resultCoffee}")
     print(f"Toast result: {resultToast}")
     print(f"Total time elapsed: {elapsedTime:.2f} seconds")
+
+if __name__ == "__main__":
+    main()
