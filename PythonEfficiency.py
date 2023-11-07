@@ -2,14 +2,14 @@ import time
 
 def brewCoffee():
     print("Start brewCoffee()")
-    # Will take three seconds to complete
+# Will take three seconds to complete
     time.sleep(3)
     print("End brewCoffee()")
     return "Brewing Complete"
 
 def makeToast():
     print("Start makeToast()")
-    # Two seconds to complete
+# Two seconds to complete
     time.sleep(2)
     print("End makeToast()")
     return "Toasting complete"
