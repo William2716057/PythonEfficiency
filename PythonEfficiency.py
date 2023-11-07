@@ -24,3 +24,7 @@ def main():
     endTime = time.time()
 
     elapsedTime = endTime - startTime
+
+    print(f"Brew result: {resultCoffee}")
+    print(f"Toast result: {resultToast}")
+    print(f"Total time elapsed: {elapsedTime:.2f} seconds")
